@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+
+.logo-area{
+    display: flex;
+}
+
+.frypan{
+    width: 20px;
+    background: transparent;
+}
+.modie-logo{
+    color: orange;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    color: black;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.left-hand{
+    display: flex;
+    gap: 30px;
+}
+.top-nav-icons{
+    display: flex;
+    gap: 20px;
+}
+.top-nav-icons i{
+    color: black;
+    font-size: small;
+}

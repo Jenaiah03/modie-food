@@ -1,0 +1,116 @@
+.serve-container{
+    display: flex;
+    gap: 60px;
+    padding: 4rem;
+}
+
+
+
+
+.right-side{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faint-text{
+    color: rgba(128, 128, 128, 0.299);
+}
+
+
+.countdown-container{
+    display: flex;
+    gap: 10px;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: bold;
+  /* display: block; */
+}
+
+.label{
+    font-size: 12px;
+}
+
+.time-box {
+  background-color: #4CAF50; 
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.order-btn{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+.product-side{
+    display: flex;
+    gap: 90px;
+    /* flex-wrap: wrap; */
+}
+
+.product-side>div{
+    border: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+    /* border-radius: 10px;
+    padding: 15px;
+    width:200px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: relative;
+    background-color: #fff; */
+}
+
+.product-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    /* width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px; */
+}
+
+.product-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    gap: 5px;
+}
+.text-product{
+    /* text-align: center;
+    display: flex;
+    flex-direction: column; */
+    margin: auto;
+    width: 100%;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.price h6:first-child {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.price h6:last-child {
+  font-weight: bold;
+}
+
+.stock{
+    color: #4CAF50;
+    font-size: 12px;
+    font-weight: bold;
+}

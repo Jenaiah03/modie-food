@@ -1,0 +1,148 @@
+.Hero-Container{
+    position: relative;
+}
+
+.nav-control{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.hero-image{
+    opacity: 0.6;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.overall-hero-div{
+    margin-top: 7rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4rem;
+    display: flex;
+    gap: 60px;
+}
+
+.left-text{
+    width: 50%;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+
+    p{
+        font-size: 12px;
+        margin-right: 80px;
+    }
+}
+.fresh-page{
+    font-size: 45px;
+}
+.fresh-color{
+    color: orange;
+}
+.profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* .right-image{
+    width: 50%;
+} */
+
+
+.right-img{
+    height: 400px;
+    border-radius: 10px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.shop-btn{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 20px;
+}
+.profile-images{
+    margin-top: 10px;
+}
+.order-button{
+    background: none;
+    color: black;
+    padding: 10px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+/* AVERAGE RESPONSIVENESS FOR TAB AND MOBILE */
+/* 1024PX = desktop screen sizes (width) */
+/* 768px = tab screen sizes (width) */
+/* 428px = mobile screen sizes (width) */
+@media ( max-width: 768px){
+    .overall-hero-div {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding: 4rem;
+        /* background-color: red; */
+    }
+
+    .left-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        background-color: green;
+         padding-top: 1rem;
+         padding-bottom: 2rem;
+    }
+    .right-Image{
+        margin-top: 5rem;
+    }
+
+    .button{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 428px){
+    .overall-hero-div{
+        padding: 1rem;
+    }
+
+    .right-Image{
+        margin-top: 3rem;
+    }
+} 
+
+
+/* USING MIN-WIDTH TO OVERRIDE THE LAYOUT OF A HORIZONTAL SEARCH FIELD TO AN AVERAGE SEARCH FIELD WHICH MAY INVOLVE STYLING MULTIPLE CLASSES IN ITS CONTAINER*/
+/* @media ((min-width: 500px)  and (max-width: 650px)) {
+    .search-field {
+        display: ;
+    }
+    
+
+    .button{
+    }
+        */
+
