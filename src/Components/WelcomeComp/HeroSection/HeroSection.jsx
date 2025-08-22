@@ -13,9 +13,9 @@ const HeroSection = () =>  {
         <div className='hero-image'>
             <img src={Veggie2} alt="" className='hero-img' />
         </div>
-        {/* <div className='nav-control'>
+        <div className='nav-control'>
             <Navbar/>
-        </div> */}
+        </div>
 
         <div className='overall-hero-div'>
             <div className='left-text'>
