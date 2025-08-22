@@ -13,14 +13,14 @@ const HeroSection = () =>  {
         <div className='hero-image'>
             <img src={Veggie2} alt="" className='hero-img' />
         </div>
-        <div className='nav-control'>
+        {/* <div className='nav-control'>
             <Navbar/>
-        </div>
+        </div> */}
 
         <div className='overall-hero-div'>
             <div className='left-text'>
                 <h3 className="fresh-page"><span className="fresh-color">FRESH FOOD</span> WITH <br />GREAT TASTE</h3>
-                <p>Delight in the goodness of fresh food rafted to perfection where every ingredient is handpicked for quality
+                <p className="para-text">Delight in the goodness of fresh food rafted to perfection where every ingredient is handpicked for quality
                 and flavour.With vibrant colors,crisp textures, and natural aromas ,each bite burst with the essence of farm-fresh produce
                 </p>
 

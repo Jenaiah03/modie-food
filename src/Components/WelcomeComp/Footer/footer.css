@@ -1,0 +1,163 @@
+.footer-container {
+    background-color: rgb(227, 226, 226);
+    padding: 4rem;
+}
+
+.footer-up-section {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.food, .links, .links-2, .newsletter {
+     /* flex: 0 0 calc(25% - 0.75rem); */
+}
+
+.food {
+    /* background-color: red; */
+}
+
+.links {
+    /* background-color: blue; */
+    /* width: 25%; */
+}
+
+.links-2 {
+    /* background-color: green; */
+    /* width: 25%; */
+}
+
+.newsletter {
+    /* background-color: purple; */
+    /* width: 25%; */
+}
+
+.footer-para {
+    text-align: justify;
+}
+
+
+
+.food {
+    width: 25%;
+}
+
+.modie-info {
+    font-size: 20px;
+}
+
+.coffee2 {
+    color: orange;
+    margin-left: 0.2rem;
+    font-weight: bold;
+}
+
+.span-icon {
+    font-size: 1.5rem;
+    color: orange;
+    margin-right: 0.4rem;
+}
+
+.footer-para {
+    margin-top: 1rem;
+}
+
+.links{
+    width: 25%;
+    padding-left: 5rem;
+}
+.links-2 {
+    /* padding-left: 4rem; */
+    width: 25%;
+    padding-top: 1rem;
+}
+
+.useful-list {
+    list-style-type: none;
+    margin-top: 1rem;   
+}
+
+.override-list {
+    margin-top: 2.3rem;
+}
+
+.center-item {
+    margin-top: 0.5rem;
+}
+
+.news-para, .form-control {
+    margin-top: 0.5rem;
+}
+
+.form-control {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.subscribe-btn {
+    background-color: orange;
+    padding: 0.8rem 1.8rem;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    color: white;
+    
+
+} 
+
+.footer-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.footer-input::placeholder {
+    padding-left: 1rem;
+}
+
+.footer-input:focus {
+    border: none;
+    outline: none;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-icons {
+    margin-top: 1rem;
+    color: orange;
+    display: flex;
+    gap: 5px;
+
+}
+
+.footer-horizontal {
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    /* color: orange; */
+}
+
+.href-link:hover, .href-right:hover, .title-link:hover {
+    color: black;
+    text-decoration: none;
+
+}
+.href-link:visited, .href-right:visited, .title-link:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.href-link:active, .href-right:active, .title-link:active {
+    color: black;
+    text-decoration: none;
+}

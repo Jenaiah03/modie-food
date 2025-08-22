@@ -1,6 +1,7 @@
 import React from 'react'
 import RecipeHero from '../../Components/RecipeComp/RecipeHero/Recipehero'
 import RecipeDownload from '../../Components/RecipeComp/RecipeDownload/RecipeDownload'
+import Footer from '../../Components/WelcomeComp/Footer/Footer'
 
 
 
@@ -17,7 +18,9 @@ function Recipe() {
         <RecipeDownload/>
       </div>
       
-
+      <div className='download-Section'>
+        <Footer/>
+      </div>
     </div>
   )
 }

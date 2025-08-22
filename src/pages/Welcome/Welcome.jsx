@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from '../../Components/WelcomeComp/HeroSection/HeroSection'
 import Serve from '../../Components/WelcomeComp/Serve/Serve'
 import Amazing from '../../Components/WelcomeComp/Amazing/Amazing'
+import Footer from '../../Components/WelcomeComp/Footer/Footer'
 
 function Welcome() {
   return (
@@ -19,6 +20,10 @@ function Welcome() {
         <div className='amazing-control'>
             <Amazing/>
         </div>
+
+        {/* <div className='amazing-control'>
+            <Footer/>
+        </div> */}
       </div>
 
   )

@@ -45,8 +45,10 @@ const Serve = () => {
               <span className="label">SECS</span><br />
             </div>
           </div>
-
-          <button className='order-btn'>Order Now</button>
+          <div className='order-button2'>
+            <button className='order-btn'>Order Now</button>
+          </div>
+          
         </div>
 
         <div className='product-side'>
